@@ -1,0 +1,53 @@
+{
+  "mod_elements": [
+    {
+      "name": "RedPanda",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_panda",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/prueba_mod/forge/biome_modifier/red_panda_biome_modifier.json",
+          "src/main/java/net/mcreator/pruebamod/entity/model/RedPandaModel.java",
+          "src/main/java/net/mcreator/pruebamod/entity/RedPandaEntity.java",
+          "src/main/java/net/mcreator/pruebamod/client/renderer/RedPandaRenderer.java",
+          "src/main/resources/assets/prueba_mod/models/item/red_panda_spawn_egg.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.prueba_mod.red_panda": "Red Panda",
+      "item.prueba_mod.red_panda_spawn_egg": "Red Panda Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "prueba_mod",
+    "modName": "Prueba mod",
+    "version": "1.0.0",
+    "author": "micad, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.pruebamod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
