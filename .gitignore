@@ -1,0 +1,8 @@
+.lock
+.gradle/
+run/
+build/
+*backup*
+
+prueba_mod/.mcreator/
+prueba_mod/.settings
